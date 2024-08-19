@@ -26,9 +26,47 @@ body {
 
 .calculator {
     height: 700px;
-    width: 500px;
+    width: 450px;
     background: #4a026e;
     border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.display {
+    width: 400px;
+    height: 130px;
+    background: #ff74e6;
+    margin: 30px;
+    border-radius: 5%;
+}
+
+.calculatorBody {
+    width: 450px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+button {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+button.red {
+    background: #fe0157;
+}
+
+button.yellow {
+    background: #fcaf17;
+}
+
+button.green {
+    background: #0792b3;
 }
 
 .creatorContainer {
