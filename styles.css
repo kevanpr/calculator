@@ -15,3 +15,9 @@ body {
     height: 100%;
     background: #32004c;
 }
+
+.calculator {
+    height: 700px;
+    width: 500px;
+    background: #4a026e;
+}
